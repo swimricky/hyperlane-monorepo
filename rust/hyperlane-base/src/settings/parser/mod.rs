@@ -112,7 +112,7 @@ impl FromRawConf<RawAgentConf, Option<&HashSet<&str>>> for Settings {
     }
 }
 
-// workaround to be able to load settings directly using load_cli_settings
+// workaround to be able to load settings directly using load_settings_for_cli
 impl FromRawConf<RawAgentConf> for Settings {
     fn from_config_filtered(
         raw: RawAgentConf,
