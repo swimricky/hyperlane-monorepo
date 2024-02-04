@@ -29,3 +29,5 @@ yarn-error.log
 .vscode
 
 tsconfig.editor.json
+
+**/private_key.json
